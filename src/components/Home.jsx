@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className="">
       <section class="bg-gray-50">
-        <div class="mx-auto max-w-screen-2xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
+        <div class="mx-auto max-w-screen-2xl px-4 py-32 lg:flex  lg:items-center">
           <div class="mx-auto max-w-2xl text-center">
             <h1 class="text-3xl  font-extrabold sm:text-5xl">
               Find your next
@@ -34,20 +34,11 @@ const Home = () => {
                 loop={Infinity}
                 wrapper="p"
               ></Typical>
-              {/* <strong class="font-extrabold text-red-700 sm:block">
-                Increase Conversion.
-              </strong> */}
             </h1>
 
             <p class="mt-4 sm:text-xl sm:leading-relaxed">
               The Most Intelligent AI Powered Real-Time Lead Generation Engine
             </p>
-
-            <div class="mt-8 flex flex-wrap justify-center gap-4">
-              <a className="bg-[#fbc32b] px-10 py-3 border font-bold rounded border-black text-md">
-                User
-              </a>
-            </div>
           </div>
         </div>
       </section>
